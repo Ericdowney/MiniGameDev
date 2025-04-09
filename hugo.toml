@@ -1,4 +1,30 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://minigamedevweb.web.app/'
 languageCode = 'en-us'
 title = 'MiniGameDev'
 theme = 'PaperMod'
+[params]
+  mainSections = ['about', 'arden', 'hex', 'gamedev']
+[menus]
+  [[menus.main]]
+  identifier = 'home'
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+  [[menus.main]]
+  identifier = 'arden'
+  name = "Arden"
+  pageRef = "/arden/"
+  weight = 20
+  [[menus.main]]
+  identifier = 'gamedev'
+  name = "Game Dev"
+  pageRef = "/gamedev/"
+  weight = 30
+  [[menus.main]]
+  identifier = 'about'
+  name = "About"
+  pageRef = "/about/"
+  weight = 40
+[services]
+  [services.googleAnalytics]
+    id = 'G-MZ1YYXVP0T'
