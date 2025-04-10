@@ -42,6 +42,12 @@ This ensures the background will have an alpha value of zero. With the new level
 
 After testing multiple setups, these camera settings worked best for my items:
 
+* `Enable Look At Tracking` - ✅
+* `Actor to Track` - `<Collectable Item Reference>`
+* `Relative Offset` - `(0.0, 0.0, 34.0)`
+* `Crop Settings` - `1.33 (4:3)`
+* `Current Focal Length` - `40.0`
+
 ![CineCameraActor Settings](../Camera-Settings.png)
 
 # Step 3: Animate Your Items in a Level Sequence
